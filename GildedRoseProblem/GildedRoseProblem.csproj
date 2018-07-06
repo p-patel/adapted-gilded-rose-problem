@@ -42,11 +42,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Items\AppreciatingItem.cs" />
+    <Compile Include="Items\HikedTicketItem.cs" />
+    <Compile Include="Items\InvalidItem.cs" />
+    <Compile Include="Items\Item.cs" />
+    <Compile Include="Items\ItemFactory\ItemFactory.cs" />
+    <Compile Include="Items\PerishingItem.cs" />
+    <Compile Include="Items\TimelessItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="README.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
